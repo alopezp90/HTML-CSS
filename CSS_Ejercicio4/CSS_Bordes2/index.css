@@ -1,0 +1,31 @@
+
+
+/*Colores usados:
+	#DBFFDB; #B8EAAD ; #F1FFF1; #FCD4F2; #B89BB1
+Alineación del texto usados (text-align):
+	center; justify*/
+
+body {background-color:#DBFFDB;
+	border: solid #B8EAAD 10px;
+	margin-bottom: 3em;}
+
+h1 {text-align: center;
+	border: solid 5px #F1FFF1;
+	margin:20px;
+	background-color:#B8EAAD }
+
+div {border: solid #B89BB1 5px;
+	margin:20px; 
+	border-top:solid #B89BB1 10px;}
+
+h3 { background-color: #FCD4F2;
+	margin-top:0px;
+	margin-bottom:0px;}
+
+p {padding-left:10px;
+	text-align: center justify}
+
+p.final {border-top: dashed black 3px;
+	text-align:right;
+	margin:20px;}
+
