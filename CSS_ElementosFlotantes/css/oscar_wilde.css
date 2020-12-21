@@ -2,30 +2,44 @@
 	Colores usados:#FDDBBD, #B0B0B0, #F2D0AB y #C9A568.
 	Tamaño de los cuadros: 13em x 13em
 */
+html, body{height: 100%;
+	box-sizing: border-box;
+}
+
 body{font-family: sans-serif;
-	background-color: #FDDBBD;	
+	background-color: #FDDBBD;
+	text-align: justify;	
+}
+
+*{margin: 0;
+	padding: 0;
+	box-sizing: inherit;
 }
 
 h1{text-align: center;
 	text-transform: uppercase;
-	color: #B0B0B0
+	color: #B0B0B0;
+	margin: 1%;
 }
 
-div{width: 50em;}
+div{width: 90%;
+	height: 100%;
+	margin: 0 auto;
+}
 
-p{width: 13em;
-	height: 13em;
+p{width: 30%;
+	height: 30%;
 	background-color: #F2D0AB;
-	border: 3px dashed #C9A568;
-	text-align: justify;
+	border: 2px dashed #C9A568;
 	font-style: oblique;
 	line-height: 1.5;
-	padding: 10px;
+	padding: 0.5em;
 	float:left;
-	margin-right: 10px;
-	margin-left: 10px;
+	margin: 1.66%;
 }
 
-p::first-letter{color: #C9A568;
-	font-size: 200%;
+p:first-letter{color: #C9A568;
+	font-size: 300%;
+	float: left;
+	margin: 5px;
 }
