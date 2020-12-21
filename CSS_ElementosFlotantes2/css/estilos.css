@@ -1,0 +1,89 @@
+/* Colores usados:
+rgb(255,234,255)
+rgb(224,224,224), #C5C5C5, black
+#E6FFE0, #D4FFC9, #A2FF8B
+#D6FFFF, #B2CEFF, #6666FF
+
+*/
+html, body{height: 100%;
+}
+
+html{box-sizing: border-box;}
+
+*{margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+h1, p#indice{text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+/*Colores de fondo en bloques y bordes*/
+body{font-family: sans-serif;
+    text-align: justify;
+    padding: 2%;
+    background-color: rgb(255,234,255);
+}
+
+div#introduccion, div#galeria, div#catedral{
+    background-color: rgb(224,224,224);
+    border: 3px solid black;
+    float: left;
+}
+
+div#museum{
+    background-color: #E6FFE0;
+    border: 3px solid #A2FF8B;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    float: left;
+}
+
+div#square{
+    background-color: #E6FFE0;
+    border: 3px solid #6666FF;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    float: left;
+}
+
+/*Posicionamiento y bordes de las imagenes*/
+div#ilondres, div#igaleria, div#icatedral{
+    background-color: #C5C5C5;
+    margin: 1%;
+    padding: 10px;
+    border: 3px solid black;
+    float: left;
+}
+
+div#imuseum{
+    background-color: #D4FFC9;
+    margin: 1%;
+    padding: 10px;
+    border: 3px solid #A2FF8B;
+    float: right;
+}
+
+div#isquare{
+    background-color: #B2CEFF;
+    margin: 1%;
+    padding: 10px;
+    border: 3px solid #6666FF;
+    float: right;
+}
+
+h2{margin-top: 1%}
+
+div#introduccion p, div#galeria p, div#catedral p, 
+div#introduccion h2, div#galeria h2, div#catedral h2{
+    margin-bottom: 1%;
+    margin-right: 1%;
+}
+
+div#museum p, div#square p,
+div#museum h2, div#square h2{
+    margin-bottom: 1%;
+    margin-left: 1%;
+}

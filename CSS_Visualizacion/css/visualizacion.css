@@ -1,0 +1,32 @@
+html, body{height: 100%;}
+
+html{box-sizing: border-box;}
+
+*{margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+#izq, #dch{width: 50%;
+    height: 100%;
+    border: 1px solid #CCC;
+    float: left;
+    padding-left:1.25%;
+    padding-top:1%;
+    padding-bottom: 1%;
+}
+
+div div{width: 30%;
+    height: 30%;
+    border: 1px solid black;
+    float: left;
+    margin: 1.25%;
+    text-align: center;
+    align-items: center;
+    font-size: 5vw;
+    line-height: 27.5vh;
+}
+
+#no{display: none}
+#oculto{visibility: hidden}
+
